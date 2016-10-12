@@ -21,4 +21,6 @@ Passing simple options without a full-blown config file can also be done using `
 docker run -p 9999:9324 -e ELASTICMQ_OPTS="-Dnode-address.host=10.2.3.4 -Dnode-address.port=9999" drostehk/elasticmq
 ```
 
+## Contributions
+
 This repo was originally copied from https://github.com/iJJi/docker-elasticmq (thanks!), but has been modified to auto-build on Docker Hub and to use the latest version of elasticmq.
