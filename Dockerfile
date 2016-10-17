@@ -1,6 +1,5 @@
-
-
-FROM openjdk:8u92-jre-alpine
+# Allow upgrading to minor revision of Java 8.
+FROM openjdk:8-jre-alpine
 MAINTAINER Bill McCord <bill@droste.hk>
 
 EXPOSE 9324
